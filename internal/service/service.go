@@ -11,6 +11,7 @@ import (
 	"api/pkg/logger"
 )
 
+
 // DataService defines the interface for data operations.
 type DataService interface {
 	GetAllData() []model.Data
